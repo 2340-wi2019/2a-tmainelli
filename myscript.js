@@ -1,0 +1,35 @@
+$(document).ready(function(){
+    var femaleName1 = prompt("Enter a female name (1 of 2)");
+        $('#female1_01').text(femaleName1);
+        $('#female1_02').text(femaleName1);
+        $('#female1_03').text(femaleName1);
+    var femaleName2 = prompt("Enter another female name (2 of 2)");
+        $('#female2_01').text(femaleName2);
+        $('#female2_02').text(femaleName2);
+    var maleName = prompt("Enter a male name");
+        $('#male1_01').text(maleName);
+        $('#male1_02').text(maleName);
+    var occuName = prompt("Enter the name of an occupation");
+        $('#occupation1_01').text(occuName);
+    var stateName = prompt("Enter a state name");
+        $('#state1_01').text(stateName);
+    var geoName = prompt("Enter a geographical feature");
+        $('#geo1_01').text(geoName);
+        $('#geo1_02').text(geoName);
+    var nounName1 = prompt("Enter a noun (1 of 5)");
+        $('#noun1_01').text(nounName1);
+    var nounName2 = prompt("Enter a noun (2 of 5)");
+        $('#noun2_01').text(nounName2);
+    var nounName3 = prompt("Enter a noun (3 of 5)");
+        $('#noun3_01').text(nounName3);
+    var nounName4 = prompt("Enter a noun (4 of 5)");
+        $('#noun4_01').text(nounName4);
+    var nounName5 = prompt("Enter a noun (5 of 5)");
+        $('#noun5_01').text(nounName5);
+    var colorName = prompt("Enter a color");
+        $('#color1_01').text(colorName);
+        $('#color1_02').text(colorName);
+        $('#color1_03').text(colorName);
+        $('#color1_04').text(colorName);
+    
+});
